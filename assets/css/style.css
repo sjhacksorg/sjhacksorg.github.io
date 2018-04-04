@@ -1,0 +1,174 @@
+body {
+  font-family: 'Mina', 'Gidole', sans-serif;
+  padding-top: 0px;
+  background-color: #F5F5F5;
+  text-align: center;
+ background-size: 50px 50px;
+ }
+}
+
+.social-buttons {
+  position: static;
+  margin: initial;
+  margin-top: 1em;
+}
+
+
+@font-face {
+  font-family: 'Gidole';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gidole'), url('..\fonts\Gidole-Regular.otf') format('truetype');
+}
+
+p {
+  font-size: 16pt;
+}
+
+      .gold-text{
+          color: #FFD700;
+          font-weight: bold;
+      }
+
+.large-text{
+  font-size: 4vw;
+}
+
+.p-white {
+  font-size: 16pt;
+  color: white;
+}
+
+#back-video{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.video{
+  position: relative;
+}
+
+.video .vid-overlay{
+  position:absolute;
+  text-align: center;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,255,0.2);
+  z-index:100;
+  overflow-wrap: normal;
+}
+
+/*GOLD --> 255,215,0*/
+
+
+
+.content-overlay{
+  text-align: center;
+  child-align: middle;
+}
+.button
+{
+  transition: 0.7s ease;
+  font-family: 'Oswald';
+  font-size: 4vw;
+  text-align: start;
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+  /*padding-left: 10%;*/
+  /*padding-right: 10%;*/
+}
+.button:hover
+{
+
+  font-size: 6vw;
+  color: black;
+  border-bottom: none;
+  background-color: rgba(255,255,255,.35);
+  transition: 0.7s ease;
+}
+.button-active
+{
+  transition: .5s ease;
+  /*font-size: larger;*/
+  /*color: black;*/
+  /*text-underline-position: 3px;*/
+  text-decoration: underline;
+  background-color: rgba(255,255,255,0);
+}
+
+
+.img-logo{
+  width: 30vw;
+  height: 35vw;
+  align: middle;
+  margin-left: 350px;
+}
+
+.align-logo-text{
+  text-align: justify;
+  font-size: 25px;
+}
+
+.img-sponsor {
+  width: 400px;
+  height: 300px;
+}
+
+/* for smaller screens --> mobile, tablet*/
+@media screen and (max-width: 960px) {
+  .site-title {			/*for small enough screen sizes, always center the logo*/
+    font-size: 16vw;
+   }
+  #nav-options{
+    width: 100%;
+    text-align: center;
+  }
+  #global-nav{
+
+  }
+  .content-overlay{
+    height: 75%;
+    margin-top: 0;
+  }
+  .img-logo{
+    margin-left: 120px;
+  }
+}
+
+.FAQ {
+  text-align: center;
+  margin-left: 530px;
+  font-size: 45px;
+}
+
+@media (max-width: 576px) {
+  .img-logo{
+    margin-left: 120px;
+  }
+
+  .FAQ {
+    margin-left: 120px;
+  }
+
+  .map-section{
+    width: auto;
+    height: auto;
+  }
+
+  .img-sponsor{
+    height: 200px;
+    width: 300px;
+  }
+}
+
+
+.footer-link{
+  padding:20px;
+}
+
+
+.site-footer{
+  background-color: #f2f2f2;
+}
